@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentResourceManagement</name>
+    </assembly>
+    <members>
+        <member name="M:StudentResourceManagement.Controllers.ResourceController.GetResources">
+            <summary>
+            Get list of resources
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudentResourceManagement.Controllers.ResourceController.GetResource(System.Int32)">
+            <summary>
+            Get single resource
+            </summary>
+            <param name="rid">The id of resource</param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentResourceManagement.Controllers.ResourceController.CreateResource(StudentResourceManagement.Models.DTOs.ResourceDTO)">
+            <summary>
+            
+            </summary>
+            <param name="resourceDTO"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
