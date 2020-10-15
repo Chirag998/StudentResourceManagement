@@ -40,6 +40,7 @@ namespace StudentResourceManagement
            (Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IStudent, StudentRepository>();
             services.AddScoped<IResource, ResourceRepository>();
+            services.AddScoped<IStudentResource,StudentResourceRepo>();
             services.AddAutoMapper(typeof(Mappings));
             services.AddApiVersioning(options =>
             {
@@ -73,7 +74,9 @@ namespace StudentResourceManagement
             //    var xmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
             //    options.IncludeXmlComments(xmlCommentsFullPath);
             //});
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options =>
+   options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

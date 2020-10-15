@@ -11,7 +11,7 @@ using StudentResourceManagement.Repository.IRepository;
 
 namespace StudentResourceManagement.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/Resource")]
     [ApiController]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public class ResourceController : Controller
