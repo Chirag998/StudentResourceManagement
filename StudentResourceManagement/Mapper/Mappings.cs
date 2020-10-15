@@ -14,6 +14,8 @@ namespace StudentResourceManagement.Mapper
         {
             CreateMap<Student, StudentDTO>().ReverseMap();
             CreateMap<Resource, ResourceDTO>().ReverseMap();
+            CreateMap<StudentResource,StudentResourceDTO>().ReverseMap();
+
         }
     }
 }

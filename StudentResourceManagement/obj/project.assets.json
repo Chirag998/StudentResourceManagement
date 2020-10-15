@@ -5406,11 +5406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\StudentResourceManagement\\StudentResourceManagement\\StudentResourceManagement.csproj",
+      "projectUniqueName": "C:\\Users\\chirag\\Desktop\\StudentResourceManagement\\StudentResourceManagement\\StudentResourceManagement.csproj",
       "projectName": "StudentResourceManagement",
-      "projectPath": "E:\\StudentResourceManagement\\StudentResourceManagement\\StudentResourceManagement.csproj",
+      "projectPath": "C:\\Users\\chirag\\Desktop\\StudentResourceManagement\\StudentResourceManagement\\StudentResourceManagement.csproj",
       "packagesPath": "C:\\Users\\chirag\\.nuget\\packages\\",
-      "outputPath": "E:\\StudentResourceManagement\\StudentResourceManagement\\obj\\",
+      "outputPath": "C:\\Users\\chirag\\Desktop\\StudentResourceManagement\\StudentResourceManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

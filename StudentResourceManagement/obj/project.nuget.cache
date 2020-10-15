@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2A7wSVPza5MQOkPlCUvhuA4qW3bxOo5SB4yUiR5VgOSwyiBM1FLfRrvZXyg44OBhzMpTeySBK+jPniwxr3O/ew==",
+  "dgSpecHash": "q/2dojpaimCZQC7sIVl2I/2F8ZatRfGmPcxGy/h+KKi7hj4Q6pBlPpFagVnHxq/xL02t57bH6DfGehdLmHAqKw==",
   "success": true,
-  "projectFilePath": "E:\\StudentResourceManagement\\StudentResourceManagement\\StudentResourceManagement.csproj",
+  "projectFilePath": "C:\\Users\\chirag\\Desktop\\StudentResourceManagement\\StudentResourceManagement\\StudentResourceManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chirag\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
